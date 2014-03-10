@@ -1,0 +1,14 @@
+noFill();
+beginShape();
+curveVertex(20,80);
+curveVertex(20,40);
+curveVertex(30,30);
+curveVertex(40,80);
+curveVertex(80,80);
+endShape();
+stroke(255,255,255);
+point(20,80);
+point(20,40);
+point(30,30);
+point(40,80);
+point(80,80);
