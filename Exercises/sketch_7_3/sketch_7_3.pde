@@ -1,0 +1,9 @@
+size(600,600);
+smooth();
+noFill();
+beginShape();
+vertex(68,224);
+bezierVertex(234,56,0,67,157,90);
+bezierVertex(157,90,12,45,67,67);
+bezierVertex(67,67,234,56,178,346);
+endShape();
