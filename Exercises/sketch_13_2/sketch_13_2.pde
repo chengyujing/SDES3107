@@ -1,0 +1,17 @@
+size(500,300);
+PFont myFont;
+myFont = loadFont("STHeitiSC-Medium-48.vlw");
+textFont(myFont);
+fill(0);
+char c = 'I';
+float cw = textWidth(c);
+text(c, 22, 55);
+rect(22, 55, cw, 2);
+String s = "am Yujing";
+float sw = textWidth(s);
+text(s, 22, 100);
+rect(22, 106, sw, 2);
+String q = "Nice to meet you!";
+float qw = textWidth(q);
+text(q, 50, 160);
+rect(50, 166, qw, 2);
