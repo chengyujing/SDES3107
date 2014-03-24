@@ -1,18 +1,14 @@
+int x = 20;
 void setup() {
-size(100, 100);
-smooth();
- strokeWeight(4);
+  size(500, 500);
+  smooth();
+  strokeWeight(2);
 }
 void draw() {
-background(204);
+background(225);
+if (keyPressed == true) {
+x++;
+}
+  line(x, 0, x, 1+x);
+}
 
-if ((keyPressed == true) && (key == 'a'))
-{
-line(50, 30, 50, 60);
-} else if (key == 's')
-{
- line(50, 60, 50, 90);
- } else {
-   line(50,0,50,30);
-}
-}
