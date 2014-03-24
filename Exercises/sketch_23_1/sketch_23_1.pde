@@ -1,5 +1,6 @@
-void setup() { size(300,300); 
-fill(130); 
+void setup() { 
+size(300,300); 
+fill(130,34,23); 
 noStroke();
 }
 
